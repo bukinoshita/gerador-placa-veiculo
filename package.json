@@ -1,7 +1,7 @@
 {
   "name": "gerador-placa-veiculo",
   "version": "0.0.0",
-  "description": "Gerador brasileiro de place de veículo",
+  "description": "Gerador brasileiro de placa de veículo",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": "bukinoshita/gerador-placa-veiculo",
