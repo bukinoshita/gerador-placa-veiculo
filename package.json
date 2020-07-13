@@ -1,0 +1,40 @@
+{
+  "name": "gerador-placa-veiculo",
+  "version": "0.0.0",
+  "description": "Gerador brasileiro de place de veículo",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "bukinoshita/gerador-placa-veiculo",
+  "author": "bukinoshita <bukinoshita@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "gerador",
+    "brasileiro",
+    "place",
+    "veiculo",
+    "brasil",
+    "dados"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "yarn build",
+    "test": "jest --config=jest.config.json"
+  },
+  "dependencies": {
+    "unique-random-array": "2.0.0"
+  },
+  "devDependencies": {
+    "@sindresorhus/tsconfig": "0.7.0",
+    "@types/jest": "26.0.4",
+    "@types/node": "13.13.14",
+    "jest": "26.1.0",
+    "ts-jest": "26.1.2",
+    "typescript": "3.9.6"
+  }
+}
