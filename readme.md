@@ -1,6 +1,6 @@
 # gerador-place-veiculo
 
-> Gerador brasileiro de Place de Veículo
+> Gerador brasileiro de Placa de Veículo
 
 ## Install
 
